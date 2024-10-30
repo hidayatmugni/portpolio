@@ -44,12 +44,14 @@ const About = () => {
           </div>
 
           <div className="lg:w-[50%] w-full">
-            <h3 className="text-md lg:text-xl text-start ">
+            <h3 className="text-md lg:text-xl text-start mb-4">
               Halo! Saya <i>Mugni Hidayat</i>, seorang Junior Web Developer yang saat ini sedang menjalani bootcamp Full-Stack Web Developer di Harisenin.com. Dengan fokus pada pengembangan front-end, saya telah menguasai teknologi seperti
               HTML, CSS, JavaScript, React, dan Tailwind CSS. Saya bersemangat untuk mengembangkan solusi web yang intuitif dan responsif. Meskipun saya lebih mahir di front-end, saya juga memiliki pemahaman dasar tentang back-end yang
               membantu saya berkolaborasi dengan tim full-stack. Saya selalu terbuka untuk peluang baru dan siap berkontribusi dalam proyek menarik. Silakan lihat karya saya di bagian portfolio!
             </h3>
-            <button className="bg-green-500 hover:bg-green-700 text-white font-medium py-2 px-4 rounded mt-6">Download CV</button>
+            <a href="../assets/cv-frontend.pdf" className="bg-green-500 hover:bg-green-700 text-white font-medium py-2 px-4 rounded">
+              Download CV
+            </a>
           </div>
         </div>
       </div>
