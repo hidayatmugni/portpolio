@@ -75,7 +75,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="mt-10 animate-bounce border border-emerald-500 shadow-lg shadow-zinc-500 hover:bg-emerald-700 rounded-full  py-2 px-4 md:py-3 md:px-4 lg:py-3 lg:px-4">
-            <a className="text-emerald-300 hover:text-white text-sm md:text-sm lg:text-md" href="#">
+            <a className="text-emerald-300 hover:text-white text-sm md:text-sm lg:text-md" href="https://wa.me/6282283272280" target="_blank" rel="noopener noreferrer">
               Let&apos;s Talk
             </a>
           </div>

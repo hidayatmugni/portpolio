@@ -39,7 +39,7 @@ const Contact = () => {
         () => {
           setStatus("Your message has been sent successfully!");
           setFormData({ name: "", email: "", message: "" }); // Reset form
-          alert("Thank you for reaching out. I’ve received your message and will get back to you as soon as possible. Have a great day!");
+          alert("Thank you for reaching out. I’ve received your message and will get back to you as soon as possible. Have a great day! 😊");
         },
         () => {
           setStatus("Failed to send message. Please try again.");
