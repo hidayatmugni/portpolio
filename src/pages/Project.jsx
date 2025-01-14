@@ -20,7 +20,12 @@ const Project = () => {
               </div>
             </div>
             {/* video belajar */}
-            <div className="flex flex-col items-center  gap-4 border border-green-500 rounded-2xl w-full max-w-[300px] shadow-lg hover:shadow-lg transition-all duration-300 hover:shadow-green-700 hover:transform hover:scale-105 pb-4">
+            <a
+              href="https://github.com/hidayatmugni/video-belajar"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center  gap-4 border border-green-500 rounded-2xl w-full max-w-[300px] shadow-lg hover:shadow-lg transition-all duration-300 hover:shadow-green-700 hover:transform hover:scale-105 pb-4"
+            >
               <div className="border-b border-green-500 w-full h-[300px]">
                 <img className="w-full h-full object-cover rounded-t-2xl" src="../assets/porto-2.png" alt="" />
               </div>
@@ -30,9 +35,14 @@ const Project = () => {
                 <p className="text-sm border border-green-500 px-2 py-1 rounded-2xl">Mock API</p>
                 <p className="text-sm border border-green-500 px-2 py-1 rounded-2xl">Zustand</p>
               </div>
-            </div>
+            </a>
             {/* Portal Depok */}
-            <div className="flex flex-col items-center gap-4 border border-green-500 rounded-2xl w-full max-w-[300px] shadow-lg hover:shadow-lg transition-all duration-300 hover:shadow-green-700 hover:transform hover:scale-105 pb-4">
+            <a
+              href="https://github.com/hidayatmugni/portal-depok"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-4 border border-green-500 rounded-2xl w-full max-w-[300px] shadow-lg hover:shadow-lg transition-all duration-300 hover:shadow-green-700 hover:transform hover:scale-105 pb-4"
+            >
               <div className="border-b border-green-500 w-full h-[300px]">
                 <img className="w-full h-full object-cover rounded-t-2xl" src="../assets/porto-3.png" alt="" />
               </div>
@@ -44,9 +54,14 @@ const Project = () => {
                 <p className="text-sm border border-green-500 px-2 py-1 rounded-2xl">Express JS</p>
                 <p className="text-sm border border-green-500 px-2 py-1 rounded-2xl">Mongo DB</p>
               </div>
-            </div>
+            </a>
             {/* chill movie */}
-            <div className="flex flex-col items-center gap-4 border border-green-500 rounded-2xl w-full max-w-[300px] shadow-lg hover:shadow-lg transition-all duration-300 hover:shadow-green-700 hover:transform hover:scale-105 pb-4">
+            <a
+              href="https://chill-movie-pied.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-4 border border-green-500 rounded-2xl w-full max-w-[300px] shadow-lg hover:shadow-lg transition-all duration-300 hover:shadow-green-700 hover:transform hover:scale-105 pb-4"
+            >
               <div className="border-b border-green-500 w-full h-[300px]">
                 <img className="w-full h-full object-cover rounded-t-2xl" src="../assets/porto-4.png" alt="" />
               </div>
@@ -59,9 +74,14 @@ const Project = () => {
                 <p className="text-sm border border-green-500 px-2 py-1 rounded-2xl">My SQL</p>
                 <p className="text-sm border border-green-500 px-2 py-1 rounded-2xl">Sequlize</p>
               </div>
-            </div>
+            </a>
             {/* Split Bill */}
-            <div className="flex flex-col items-center gap-4 border border-green-500 rounded-2xl w-full max-w-[300px] shadow-lg hover:shadow-lg transition-all duration-300 hover:shadow-green-700 hover:transform hover:scale-105 pb-4">
+            <a
+              href="https://github.com/hidayatmugni/app-split-bill"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-4 border border-green-500 rounded-2xl w-full max-w-[300px] shadow-lg hover:shadow-lg transition-all duration-300 hover:shadow-green-700 hover:transform hover:scale-105 pb-4"
+            >
               <div className="border-b border-green-500 w-full h-[300px]">
                 <img className="w-full h-full object-cover rounded-t-2xl" src="../assets/porto-5.png" alt="" />
               </div>
@@ -69,7 +89,7 @@ const Project = () => {
                 <p className="text-sm border border-green-500 px-2 py-1 rounded-2xl">React JS</p>
                 <p className="text-sm border border-green-500 px-2 py-1 rounded-2xl">Tailwind CSS</p>
               </div>
-            </div>
+            </a>
           </div>
         </section>
       </div>
