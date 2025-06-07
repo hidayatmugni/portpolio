@@ -47,6 +47,7 @@ export default {
         3: "3",
       },
       animation: {
+        marquee: "marquee 30s linear infinite",
         spin: "spin var(--tw-animate-duration, 1s) var(--tw-animate-easing, linear) var(--tw-animate-delay, 0s) var(--tw-animate-iteration, infinite) var(--tw-animate-fill, none)",
         ping: "ping var(--tw-animate-duration, 1s) var(--tw-animate-easing, cubic-bezier(0, 0, 0.2, 1)) var(--tw-animate-delay, 0s) var(--tw-animate-iteration, infinite) var(--tw-animate-fill, none)",
         pulse: "pulse var(--tw-animate-duration, 2s) var(--tw-animate-easing, cubic-bezier(0.4, 0, 0.6, 1)) var(--tw-animate-delay, 0s) var(--tw-animate-iteration, infinite) var(--tw-animate-fill, none)",
@@ -99,6 +100,11 @@ export default {
           "100%": {
             transform: "rotateX(0)",
           },
+        },
+        // animasi scroll
+        marquee: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-100%)" },
         },
         jump: {
           "0%, 100%": {
