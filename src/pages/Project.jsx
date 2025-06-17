@@ -29,7 +29,7 @@ const Project = () => {
             </a>
             {/* Odoo Module */}
             <a
-              href="https://github.com/hidayatmugni/app-split-bill"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center gap-4 border border-green-500 rounded-2xl w-full max-w-[300px] shadow-lg hover:shadow-lg transition-all duration-300 hover:shadow-green-700 hover:transform hover:scale-105 pb-4"
