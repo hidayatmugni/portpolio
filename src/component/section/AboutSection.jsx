@@ -62,6 +62,7 @@ export const AboutSection = () => {
           <h1 className="text-2xl text-center md:text-3xl lg:text-4xl font-bold  bg-gradient-to-r from-green-500 to-emerald-500 bg-clip-text text-transparent mb-4 md:mb-8 lg:mb-10 ">Certificate</h1>
           <Certificate url="../assets/fullstack-certificate.pdf" name="Certificate Full-stack Developer" />
           <Certificate url="../assets/java-script.pdf" name="Certificate Learning Javascript" />
+          <Certificate url="../assets/python.pdf" name="Certificate Learning Python" />
           <Certificate url="../assets/react-statemanagement.pdf" name="Certificate Learning React State Management" />
           <Certificate url="../assets/mongo-db.pdf" name="Certificate Learning Mongo DB" />
           <Certificate url="../assets/konsep-oop-javascript.pdf" name="Certificate Learning Concept OOP with JavaScript" />
