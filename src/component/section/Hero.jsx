@@ -45,7 +45,7 @@ const Hero = () => {
 
         {/* Title */}
         <h1 className="mt-5 md:mt-6 lg:mt-[20px] text-3xl md:text-4xl font-bold bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">Mugni Hidayat</h1>
-        <p className="mt-2 text-lg md:text-2xl bg-gradient-to-b from-blue-400 to-green-400 bg-clip-text text-transparent">Junior Web Developer</p>
+        <p className="mt-2 text-lg md:text-2xl bg-gradient-to-b from-blue-400 to-green-400 bg-clip-text text-transparent">Odoo Developer</p>
 
         {/* Location */}
         <div className="flex items-center mt-2">
